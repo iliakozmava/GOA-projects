@@ -1,0 +1,63 @@
+<!-- 1 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to my website</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male"> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female<br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="countryCode">Phone no</label>
+        <select id="countryCode" name="countryCode">
+            <option value="977" selected>977</option>
+            <option value="955">91</option>
+            <option value="1">1</option>
+        </select>
+        <input type="text" id="phone" name="phone"><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+<!-- 2 name, value, id ატრიბუტები
+
+name – სერვერზე გაგზავნისას იდენტიფიკატორია (backend-ში ამ სახელით მივიღებთ მნიშვნელობას).
+
+value – ველის ნაგულისხმევი ან არჩეული მნიშვნელობაა.
+
+id – HTML ელემენტის უნიკალური იდენტიფიკატორია (CSS ან JS-ში გამოსაყენებლად). -->
+
+<!-- 3 Web–სერვისზე ფორმის მნიშვნელობის გაგზავნა
+
+როდესაც მომხმარებელი ფორმას ავსებს და Submit-ს აჭერს:
+
+name ატრიბუტების მიხედვით სერვერზე მიდის მონაცემები (მაგ. fullname=Darko&gender=Male).
+
+სერვერი ამ მონაცემებს ამუშავებს (მაგ. რეგისტრაციისთვის, შესასვლელად ან მონაცემთა ბაზაში ჩასაწერად). -->
+
+<!-- 4 -->
+<select name="city">
+    <option value="tbilisi">Tbilisi</option>
+    <option value="batumi" selected>Batumi</option>
+    <option value="kutaisi">Kutaisi</option>
+</select>
+
+<!-- 5 -->
+<select name="color">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue" selected>Blue</option>
+</select>
