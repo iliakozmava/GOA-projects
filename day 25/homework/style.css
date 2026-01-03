@@ -1,0 +1,36 @@
+/* 1 დავალება */
+div {
+    color: red;
+    font-family: Arial;
+}
+
+/* 2 დავალება */
+h1 {
+    color: green;
+}
+
+.title {
+    color: yellow;
+}
+
+.big {
+    color: purple;
+}
+
+#main {
+    color: blue;
+}
+
+/* 3 დავალება */
+p {
+    color: black;
+}
+
+i {
+    color: orange;
+}
+
+/* 4 დავალება
+id იძახება #
+class იძახება .
+*/

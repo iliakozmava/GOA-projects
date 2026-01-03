@@ -1,0 +1,33 @@
+/* 2 */
+.text {
+  background-color: yellow;
+  color: red;
+  border: dotted blue;
+}
+
+/* 5 */
+.same {
+  color: black;
+}
+
+i.same {
+  color: blue;
+}
+
+/* 6 */
+.extra {
+  color: brown;
+}
+
+/* 7 */
+p {
+  color: green;
+}
+
+.myclass {
+  color: blue;
+}
+
+#para1 {
+  color: red;
+}
