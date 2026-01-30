@@ -1,0 +1,39 @@
+/* 1 */
+.p1 {
+    text-decoration-line: underline overline line-through;
+    text-decoration-color: red;
+}
+
+/* 2 */
+.p2 {
+    text-decoration-line: underline;
+    text-underline-offset: -5px;
+}
+
+/* 3 */
+#big {
+    text-transform: uppercase;
+}
+
+#first {
+    text-transform: capitalize;
+}
+
+#small {
+    text-transform: lowercase;
+}
+
+/* 4 */
+.shadow {
+    text-shadow: 2px 2px 5px blue;
+}
+
+/* 5 */
+.font {
+    font-family: Roboto;
+}
+
+/* 6 */
+#bold {
+    font-weight: 700;
+}

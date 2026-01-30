@@ -1,0 +1,55 @@
+/* 1) ტექსტის დეკორაციის კუთვნილებები
+text-decoration adds line to text
+underline line goes down
+overline line goes up
+line-through line goes in text
+text-decoration-color changes line color
+text-decoration-style changes line style
+text-underline-offset moves underline
+*/
+
+.p1 {
+  font-family: Roboto, sans-serif;
+}
+
+.p2 {
+  font-family: Open Sans, sans-serif;
+}
+
+.p3 {
+  font-family: Lobster, cursive;
+}
+
+.p4 {
+  font-family: Montserrat, sans-serif;
+}
+
+.p5 {
+  font-family: Playfair Display, serif;
+}
+
+.shadow {
+  text-shadow: 2px 2px 5px black;
+}
+
+.other {
+  color: blue;
+  font-weight: bold;
+}
+
+.h1one {
+  text-decoration: underline;
+}
+
+.h1two {
+  text-decoration: overline;
+}
+
+.h1three {
+  text-decoration: line-through;
+}
+
+.move {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
