@@ -1,0 +1,69 @@
+/* 1 */
+/* :link */
+/* ახალი ლინკი რომელსაც ჯერ არავის დაუკლიკავს */
+/* მაგ1ალითი 1: a:link { color: blue } */
+/* მაგალითი 2: a:link { text-decoration: none }:visited */
+/* ლინკი რომელსაც უკვე ვინმემ დააკლიკა */
+/* მაგალითი 1: a:visited { color: purple } */
+/* მაგალითი 2: a:visited { opacity: 0.6 }:hover */
+/* მაუსი რომ გადაატარებ ელემენტზე */
+/* მაგალითი 1: button:hover { background: yellow } */
+/* მაგალითი 2: a:hover { font-size: 22px }:active */
+/* ელემენტი რომ დააჭირე და ჯერ არ გაუშვი თითი */
+/* მაგალითი 1: button:active { background: red } */
+/* მაგალითი 2: a:active { color: black } */
+
+/* 2 */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background: lightblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    padding: 16px 32px;
+    background: pink;
+    color: white;
+    font-size: 22px;
+}
+
+a {
+    padding: 10px 20px;
+    background: lightgreen;
+    color: darkgreen;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background: purple;
+    color: yellow;
+    padding: 14px 28px;
+    font-size: 21px;
+}
+/* 3 */
+button {
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: darkred;
+    color: yellow;
+}
+/* 4 */
+a:visited {
+    color: violet;
+}
+/* 5 */
+a {
+    color: green;
+    text-decoration: none;
+}
